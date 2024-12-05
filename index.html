@@ -1,0 +1,85 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="./style.css">
+ <title>Document</title>
+</head>
+<body>
+ <p></p>
+
+<div class="js-products"></div>
+
+<h1 class="title">Это<span> заголовок</span></h1>
+
+ <!-- <button type = "button" class="magic-btn js-magic-btn">
+  Make a magic 
+ </button> -->
+ <ul class = "site-nav">
+  <li class="site-nav-item">
+   <a href="/about" class="site-nav-link">About us</a>
+  </li>
+  <li class="site-nav-item">
+   <a href="/partfolio" class="site-nav-link">Partfolio</a>
+  </li>
+  <li class="site-nav-item">
+   <a href="/contacts" class="site-nav-link">Contacts</a>
+  </li>
+ </ul>
+
+ <p><a href="/index.html">Main</a></p>
+ <button type = "button" class="magic-btn js-magic-btn">
+  Make a magic
+ </button>
+ <section class="hero">
+  <h1 class="hero_title">All about me</h1>
+  <img class="hero-image"
+  src="./photo_2023-07-28_00-47-59.jpg"
+  alt="My son"
+  width="320">
+ </section>
+
+ <hr/>
+
+ <div class="js-actions">
+  <button type="button" data-action="add">Make</button>
+  <button type="button" data-action="remove">Remove</button>
+  <button type="button" data-action="edit">Edit</button>
+ </div>
+
+ <!-- Колар пикер-->
+ <div class="color-picker js-color-picker"></div>
+
+<!-- Таблица-->
+
+<table class="transaction-table js-transactions-table">
+   <thead>
+      <tr>
+         <th>ID транзакции</th>
+         <th>Сумма</th>
+         <th>Дата</th>
+         <th>Кто</th>
+         <th>Тип транзакции</th>
+         <th>Имя счета</th>
+         <th>Номер счета</th>
+      </tr>
+   </thead>
+
+   <tbody>
+    <tr>
+         <td>ID транзакции</td>
+         <td>Сумма</td>
+         <td>Дата</td>
+         <td>Кто</td>
+         <td>Тип транзакции</td>
+         <td>Имя счета</td>
+         <td>Номер счета</td>
+    </tr>
+   </tbody>
+</table>
+
+<script src="./transactions.js" type="module"></script>
+<script src="./01-query-selector.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+ /* burger menu
+======================== */
+
+.menu {
+ display: inline-block;
+}
+
+.menu._active .menu_button {
+ display: block;
+}
+
+.menu._active .menu_button span:first-child {
+ display: none;
+}
+
+.menu._active .menu_button span:last-child {
+ display: block;
+}
+
+.menu_button span:first-child {
+ display: block;
+}
+
+.menu_button span:last-child {
+ display: none;
+}
+
+.menu_list {
+ background-color: blueviolet;
+ padding: 15px;
+}
+
+.menu._active .menu_list {
+ display: block;
+}
+
+.menu_list li:not(:last-child) {
+ margin: 0px 0px 15px 0px;
+}
+
+.menu_link {
+ color: #fff;
+ font-size: 16px;
+}
+
+.menu_link:hover {
+ text-decoration: underline;
+}

@@ -1,0 +1,21 @@
+body {
+ background-color:azure
+}
+
+.gallery {
+ display: flex;
+ flex-wrap: wrap;
+ gap: 10px;
+ list-style: none;
+ padding: 0;
+}
+
+.gallery li {
+ flex-basis: calc(33.333% - 10px);
+}
+
+.gallery img {
+ width: 100%;
+ height: auto;
+ display: block;
+}
